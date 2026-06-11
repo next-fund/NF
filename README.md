@@ -10,7 +10,7 @@ A crypto (USDT / BEP-20) investment platform built with **React + Vite + Tailwin
 - **Withdraw USDT** with automatic **1% fee** → sent for admin approval
 - **Investment packages**: 90 / 300 / 600 / 1200 USDT paying **3 / 10 / 20 / 40 USDT every 24h**
 - Returns are **credited automatically** whenever the user opens the app after 24h has passed (no paid Cloud Functions needed)
-- **Admin panel** (only for `ahmad.niazi14@gmail.com`): total funds deposited, pending approvals queue (approve/reject), and all user emails & balances
+- **Admin panel** (only for `ss-nizazi44@gmail.com`): total funds deposited, pending approvals queue (approve/reject), and all user emails & balances
 
 ## 1. Configure Firebase
 1. Create a project at <https://console.firebase.google.com>
@@ -21,7 +21,7 @@ A crypto (USDT / BEP-20) investment platform built with **React + Vite + Tailwin
 6. Paste your keys into **`src/lib/firebase.ts`**
 
 ### Create the admin account
-Sign up once in the app using `ahmad.niazi14@gmail.com` / `FaMoU.ai123`. That account automatically unlocks the Admin tab.
+
 
 ## 2. Firestore security rules
 Paste in **Firestore → Rules** (`ADMIN_UID` = the admin account's UID, shown in Authentication):
